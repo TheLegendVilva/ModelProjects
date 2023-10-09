@@ -1,0 +1,18 @@
+# data.yaml
+
+train: ../train_data/images
+val: ../val_data/images
+test: ../test_data/images
+
+# Number of classes
+nc: 1  # Change this to the number of classes in your dataset
+
+# Class names (optional)
+names: ['bleeding']  # Replace with your class names
+
+# Input image size (optional, can be omitted if you want to use the default size)
+img-size: 224  # Change this to your desired image size (e.g., 416 or 608)
+
+# Batch size (optional, can be omitted if you want to use the default batch size)
+batch-size: 16  # Adjust this based on your GPU's memory capacity
+
